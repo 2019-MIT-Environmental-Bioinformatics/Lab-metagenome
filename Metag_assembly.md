@@ -36,10 +36,11 @@ The sequences starting with the SRR* are the individual metagenomic datasets. Fo
 
 Go to your *Lab-metagenome* folder, start an srun using **scavenger**. Request **2h**, **36** cpus, and **40gb** of memory
 
-``` srun -p scavenger --time=12:00:00 --ntasks-per-node=36 --mem=40gb --pty bash```
+``` srun -p scavenger --time=2:00:00 --ntasks-per-node=36 --mem=40gb --pty bash```
 
 And start the assembly using megahit:
 ```conda activate assembly```
+
 ```megahit -1``` *path to reads _1* ```-2```  *path to reads _2* ```-t 36 --k-min 61 --k-max 121 --min-contig-len 2000 -o Megahit_springs```
 
 _______________________________________________________________________________
