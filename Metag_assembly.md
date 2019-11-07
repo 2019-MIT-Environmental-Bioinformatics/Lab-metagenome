@@ -34,7 +34,6 @@ You will find the trimmed paired-end datasets in
 
 The sequences starting with the SRR* are the individual metagenomic datasets. For your convenience, I also created the concatenated files (*prings_paired_1.fastq.gz* and *prings_paired_2.fastq.gz*), because today, we will do a **co-assembly** (you will find out later why)
 
-_______________________________________________________________________________
 Go to your *Lab-metagenome* folder, start an srun using **scavenger**. Request **2h**, **36** cpus, and **40gb** of memory
 
 ``` srun -p scavenger --time=12:00:00 --ntasks-per-node=36 --mem=40gb --pty bash```
@@ -42,6 +41,8 @@ Go to your *Lab-metagenome* folder, start an srun using **scavenger**. Request *
 And start the assembly using megahit:
 ```conda activate assembly```
 ```megahit -1``` *path to reads _1* ```-2```  *path to reads _2* ```-t 36 --k-min 61 --k-max 121 --min-contig-len 2000 -o Megahit_springs```
+
+_______________________________________________________________________________
 
 When you the assembly is completed, go into the folder Megahit_springs. The assembled contigs are called "final.contigs.fa".
 
@@ -82,6 +83,7 @@ Here is a comparative table of the results. Your thoughts?
 
 ## Binning
 Several tools
+
 MetaBAT 2: an adaptive binning algorithm for robust and efficient genome reconstruction from metagenome assemblies
 https://peerj.com/preprints/27522/
 
