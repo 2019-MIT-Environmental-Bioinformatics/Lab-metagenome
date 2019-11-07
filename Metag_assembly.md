@@ -62,3 +62,6 @@ http://www.acgt.me/blog/2013/7/8/why-is-n50-used-as-an-assembly-metric.html
 Given a set of contigs, the L50 count is defined as the smallest number of contigs whose length sum makes up half of genome size.
 
 http://www.acgt.me/blog/2015/6/11/l50-vs-n50-thats-another-fine-mess-that-bioinformatics-got-us-into
+
+
+![Alt text](Assembly_metrics.png)
