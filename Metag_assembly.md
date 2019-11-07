@@ -79,3 +79,37 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342519/pdf/cmb.2012.0021.pdf
 Here is a comparative table of the results. Your thoughts?
 
 ![Alt text](Assemblies_metrics.png)
+
+## Binning
+Several tools
+MetaBAT 2: an adaptive binning algorithm for robust and efficient genome reconstruction from metagenome assemblies
+https://peerj.com/preprints/27522/
+
+MetaBAT2 uses nucleotide composition information and source strain abundance (measured by depth-of-coverage by aligning the reads to the contigs) to perform binning
+
+### Bin refining
+DAS
+https://www.nature.com/articles/s41564-018-0171-1
+https://github.com/cmks/DAS_Tool
+
+Anvio
+http://merenlab.org/software/anvio/
+
+MetaWRAP
+https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0541-1
+
+### Bin quality
+CheckM
+https://genome.cshlp.org/content/25/7/1043
+https://ecogenomics.github.io/CheckM/
+
+It provides estimates of genome completeness and contamination by using collocated sets of genes that are ubiquitous and single-copy within a phylogenetic lineage.
+
+### Downstream analyis
+Functional annotations: 
+prokka (https://academic.oup.com/bioinformatics/article/30/14/2068/2390517)
+
+Taxonomic annotations: 
+BAT (https://www.biorxiv.org/content/10.1101/530188v1)
+BASTA (https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13095)
+GTDB (https://gtdb.ecogenomic.org/)
