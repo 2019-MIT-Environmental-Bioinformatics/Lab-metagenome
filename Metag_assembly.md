@@ -64,4 +64,12 @@ Given a set of contigs, the L50 count is defined as the smallest number of conti
 http://www.acgt.me/blog/2015/6/11/l50-vs-n50-thats-another-fine-mess-that-bioinformatics-got-us-into
 
 
+## Compare results from different assemblers
+For the example, I used idba and spades to assemble the same dataset
+
+https://academic.oup.com/bioinformatics/article/28/11/1420/266973
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342519/pdf/cmb.2012.0021.pdf
+
+Here is a comparative table of the results. Your thoughts?
+
 ![Alt text](Assemblies_metrics.png)
