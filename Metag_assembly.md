@@ -82,12 +82,11 @@ Here is a comparative table of the results. Your thoughts?
 ![Alt text](Assemblies_metrics.png)
 
 ## Binning
-Several tools
+There are several tools, but MetaBAT2 has been shown from various independent groups to be the best-performing standalone binning tool. MetaBAT2 uses nucleotide composition information and source strain abundance (measured by depth-of-coverage by aligning the reads to the contigs) to perform binning.
 
 MetaBAT 2: an adaptive binning algorithm for robust and efficient genome reconstruction from metagenome assemblies
 https://peerj.com/preprints/27522/
 
-MetaBAT2 uses nucleotide composition information and source strain abundance (measured by depth-of-coverage by aligning the reads to the contigs) to perform binning
 
 ### Bin refining
 DAS
