@@ -64,4 +64,4 @@ Given a set of contigs, the L50 count is defined as the smallest number of conti
 http://www.acgt.me/blog/2015/6/11/l50-vs-n50-thats-another-fine-mess-that-bioinformatics-got-us-into
 
 
-![Alt text](Assembly_metrics.png)
+![Alt text](Assemblies_metrics.png)
